@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_materi"
+            android:icon="@drawable/home_icon"
+            android:title="Materi" />
+        <item
+            android:id="@+id/nav_kuis"
+            android:icon="@drawable/home_icon"
+            android:title="Kuis" />
+        <item
+            android:id="@+id/nav_tantangan"
+            android:icon="@drawable/home_icon"
+            android:title="Tantangan" />
+        <item
+            android:id="@+id/nav_capaian"
+            android:icon="@drawable/home_icon"
+            android:title="Capaian" />
+
+    </group>
+
+        <item android:title="Profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/home_icon"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/home_icon"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/home_icon"
+                    android:title="Logout" />
+                </group>
+            </menu>
+
+        </item>
+
+
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/share_icon"
+                 />
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Rate Us"
+                android:icon="@drawable/share_icon"
+                />
+
+        </menu>
+
+    </item>
+
+</menu>
