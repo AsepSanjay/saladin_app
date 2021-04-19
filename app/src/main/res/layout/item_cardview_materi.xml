@@ -30,7 +30,7 @@
             android:layout_toEndOf="@id/tema_materi"
             android:orientation="vertical">
             <TextView
-                android:id="@+id/tv_item_title"
+                android:id="@+id/tv_tema_materi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/activity_vertical_margin"
@@ -41,7 +41,16 @@
                 android:textStyle="bold"
                 tools:text="Tema Materi" />
             <TextView
-                android:id="@+id/tv_item_dateReleased"
+                android:id="@+id/tv_date_materi"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="2dp"
+                android:text="@string/date_relealesed"
+                android:textSize="14sp"
+                android:textStyle="italic"/>
+            <TextView
+                android:id="@+id/tv_url_video"
                 android:layout_width="244dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -81,24 +90,24 @@
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
-<!--                <ImageView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:contentDescription="@string/timer_icon"-->
-<!--                    android:ellipsize="end"-->
-<!--                    android:maxLines="3"-->
-<!--                    android:padding="7dp"-->
-<!--                    android:src="@drawable/ic_av_timer_pink_24dp"-->
-<!--                    android:textAlignment="center" />-->
+                <!--                <ImageView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:contentDescription="@string/timer_icon"-->
+                <!--                    android:ellipsize="end"-->
+                <!--                    android:maxLines="3"-->
+                <!--                    android:padding="7dp"-->
+                <!--                    android:src="@drawable/ic_av_timer_pink_24dp"-->
+                <!--                    android:textAlignment="center" />-->
 
-<!--                <TextView-->
-<!--                    android:id="@+id/tv_item_voteCount"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="match_parent"-->
-<!--                    android:paddingTop="13dp"-->
-<!--                    android:text="@string/vote_count"-->
-<!--                    android:textSize="12sp"-->
-<!--                    android:textStyle="bold" />-->
+                <!--                <TextView-->
+                <!--                    android:id="@+id/tv_item_voteCount"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:paddingTop="13dp"-->
+                <!--                    android:text="@string/vote_count"-->
+                <!--                    android:textSize="12sp"-->
+                <!--                    android:textStyle="bold" />-->
             </TableRow>
         </TableLayout>
     </RelativeLayout>

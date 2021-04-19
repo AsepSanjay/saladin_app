@@ -18,9 +18,8 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
-import com.sample.saladin.models.Materi;
+import com.sample.saladin.fragment.MateriFragment;
 
-@SuppressWarnings("deprecation")
 public class Dashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     //Variable
@@ -44,8 +43,9 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         CardView cardview= findViewById(R.id.card_materi);
         cardview .setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                Intent Portfolio = new Intent(Dashboard.this,Materi.class);
-                startActivity(Portfolio); }
+                Intent Portfolio = new Intent(Dashboard.this, MateriFragment.class);
+                startActivity(Portfolio);
+            }
         });
 
 
