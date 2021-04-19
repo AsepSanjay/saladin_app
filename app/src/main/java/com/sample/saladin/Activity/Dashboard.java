@@ -1,4 +1,4 @@
-package com.sample.saladin.activity;
+package com.sample.saladin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,6 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
-import com.sample.saladin.R;
 
 public class Dashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

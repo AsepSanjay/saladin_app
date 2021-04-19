@@ -1,14 +1,14 @@
-package com.sample.saladin;
-
-import android.os.Bundle;
+package com.sample.saladin.models;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SecondActivity extends AppCompatActivity {
+import android.os.Bundle;
+
+public class MateriActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_materi);
     }
 }
