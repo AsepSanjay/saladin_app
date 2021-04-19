@@ -108,6 +108,7 @@
         android:textColor="#fff"/>
 
     <Button
+        android:id="@+id/login_screen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sudah mendaftar? Masuk"

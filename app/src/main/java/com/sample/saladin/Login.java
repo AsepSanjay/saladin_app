@@ -8,10 +8,17 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.textfield.TextInputLayout;
 
+
+@SuppressWarnings("deprecation")
 public class Login extends AppCompatActivity {
 
-      Button callSignUp; //login_btn;
+    TextInputLayout etEmail, etPassword;
+    Button btnLogin;
+    Button callSignUp;
+
+       //login_btn;
 //    ImageView image;
 //    TextView logoText, sloganText;
 //    TextInputLayout username, password;
@@ -21,9 +28,11 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow() .setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
+//
 
         //Hooks
         callSignUp = findViewById(R.id.signup_screen);
+        btnLogin = findViewById(R.id.btn_login);
 //        image = findViewById(R.id.logo_image);
 //        logoText = findViewById(R.id.logo_name);
 //        sloganText = findViewById(R.id.slogan_name);
@@ -33,7 +42,7 @@ public class Login extends AppCompatActivity {
 
         callSignUp.setOnClickListener (new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 Intent intent = new Intent(Login.this,SignUp.class);
                 startActivity(intent);
 //
@@ -50,6 +59,14 @@ public class Login extends AppCompatActivity {
 //                ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(Login.this,pairs);
 //                startActivity(intent, options.toBundle());
 
+            }
+        });
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this,Dashboard.class);
+                startActivity(intent);
             }
         });
     }

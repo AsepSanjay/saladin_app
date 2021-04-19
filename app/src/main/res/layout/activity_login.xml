@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:orientation="vertical"
-    android:background="#fff"
+    android:background="@drawable/solid_background"
     android:padding="20dp"
     tools:ignore="ExtraText">
 
@@ -25,7 +25,7 @@
         android:fontFamily="@font/bungee"
         android:text="Selamat Datang"
         android:textAlignment="center"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:transitionName="logo_text" />
 
     <TextView
@@ -88,13 +88,14 @@
             android:layout_margin="5dp"/>
 
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:text="Masuk"
             android:textColor="#fff"
-            android:transitionName="button_tran"/>
+            android:transitionName="button_tran" />
 
         <Button
             android:id="@+id/signup_screen"

@@ -5,7 +5,7 @@
 
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home_icon"
+            android:icon="@drawable/ic_home_24dp"
             android:title="Beranda" />
         <item
             android:id="@+id/nav_materi"
@@ -13,15 +13,15 @@
             android:title="Materi" />
         <item
             android:id="@+id/nav_kuis"
-            android:icon="@drawable/home_icon"
+            android:icon="@drawable/ic_kuis_24dp"
             android:title="Kuis" />
         <item
             android:id="@+id/nav_tantangan"
-            android:icon="@drawable/home_icon"
+            android:icon="@drawable/ic_tantangan_24dp"
             android:title="Tantangan" />
         <item
             android:id="@+id/nav_capaian"
-            android:icon="@drawable/home_icon"
+            android:icon="@drawable/ic_review_24dp"
             android:title="Capaian" />
 
     </group>
@@ -31,12 +31,8 @@
             <menu>
                 <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_login"
-                    android:icon="@drawable/home_icon"
-                    android:title="Login" />
-                <item
                     android:id="@+id/nav_profile"
-                    android:icon="@drawable/home_icon"
+                    android:icon="@drawable/ic_siswa_24dp"
                     android:title="Profile" />
                 <item
                     android:id="@+id/nav_logout"
